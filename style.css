@@ -221,7 +221,31 @@ footer {
 
 
 @media screen and (max-width:425px){
-  header{
+  header,nav,.main-visual,main,footer{
     width: 100%;
+  }
+  .social{
+    display: none;
+  }
+  .nav-list-item{
+    display: block;
+    padding: 5px 0;
+  }
+  .main-V-content{
+    width: 100%;
+    background-color: rgba(72, 112, 117, 0.5);
+  }
+  
+  main{
+    display: block;
+  }
+  .blog{
+    width: 100%;
+  }
+  .blog-image{
+    width: 180px;
+  }
+  .category{
+    display: none;
   }
 }
