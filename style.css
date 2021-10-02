@@ -221,7 +221,7 @@ footer {
 
 
 @media screen and (max-width:425px){
-  header,nav,.main-visual,main,footer{
+  header,nav,.main-visual,main,.sidebar,footer{
     width: 100%;
   }
   .social{
@@ -242,10 +242,26 @@ footer {
   .blog{
     width: 100%;
   }
+  .blog-box{
+    padding-top: 10px;
+    padding-left: 2%;
+  }
   .blog-image{
     width: 180px;
   }
   .category{
     display: none;
   }
+  .popular{
+    padding-top: 50px;
+  }
+  .instagram-B{
+    width: 48%;
+  }
+.instagram-B:nth-child(odd){
+  margin-right: 4%;
+}
+.sidebar-C{
+  padding-left: 2%;
+}
 }
